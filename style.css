@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(206, 206, 206);
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 15%;
+  height: 70px;
+  /* background-color: rgb(173, 19, 57); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.nav {
+  width: 30%;
+  height: 70px;
+  /* background-color: rgb(230, 130, 0); */
+}
+
+.nav-links {
+  height: 70px;
+  width: 100%;
+  /* background-color: brown; */
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+/* 
+li
+{
+    background-color: blanchedalmond;
+} */
+
+/* Banner CSS */
+.banner {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(206, 206, 206);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  width: 60%;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+}
+
+.t1 {
+  font-size: 60px;
+}
+
+.t2 {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(75, 75, 185);
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.cta {
+  padding: 16px 40px;
+  font-size: 20px;
+  margin-top: 35px;
+  background-color: rgb(75, 75, 185);
+  color: white;
+  border: 2px solid rgb(75, 75, 185);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cta:hover {
+  background-color: transparent;
+  color: rgb(75, 75, 185);
+}
+.person {
+  background-color: rgb(75, 75, 185);
+  border-radius: 400px;
+  padding: 30px;
+}
+
+.person-img {
+  height: 400px;
+}
+
+/* Services CSS */
+
+.services {
+  width: 100%;
+  padding: 30px 5%;
+  /* background-color: tomato; */
+}
+.section-title {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.section-child {
+  width: 100%;
+  padding: 20px 0;
+  /* background-color: white; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  width: 22%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  row-gap: 15px;
+  box-shadow:0 0 2px gray ;
+  border-radius: 10px;
+}
+.icon {
+  padding: 50px;
+  font-size: 70px;
+  align-self: center;
+  color: rgb(75, 75, 185) ;
+}
+.service-text{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-btn {
+    padding: 10px 20px;
+    background-color: rgb(75, 75, 185);
+    color: white;
+    border: none;
+    border-radius: 10px ;
+}
+
+.service-btn:hover
+{
+    cursor: pointer;
+    background-color:transparent;
+    color:rgb(75, 75, 185) ;
+    transition: 0.2s; 
+    border: 2px solid rgb(75, 75, 185);
+}
